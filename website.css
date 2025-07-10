@@ -17,6 +17,10 @@
 
 }
 
+.bg-color-whole-body{
+    background-color: rgba(78, 71, 255, 0.01);
+}
+
 .secondary-bg{
    color: rgba(78, 71, 255, 0.1);
 }
@@ -155,3 +159,63 @@ main{
     margin-top: -80px;
 
 }
+
+/* What our users say */
+.card{
+    border: 2px solid #4E47FF;
+    border-radius: 14px;
+    margin: 20px;
+    padding: 24px;
+}
+
+.stars{
+   display: flex; 
+}
+
+.card-title-1{
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+
+.card-description-1{
+    font-size: 16px;
+    color: #1E1E1E;
+
+}
+
+.avater-image{
+    border-radius: 100%;
+}
+
+.card-title-2{
+    font-size: 16px;
+    color: #757575;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.card-description-2{
+    font-size: 16px;
+    color: #B3B3B3 ;
+    margin-left: 20px;
+    margin-top: -10px;
+
+}
+.whole-bottom-container{
+    display: flex;
+    align-items: center;
+    
+}
+
+.users-say{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.aling{
+    text-align: center;
+    margin-top: 137px;
+}
+
