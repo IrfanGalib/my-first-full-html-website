@@ -86,3 +86,30 @@ header{
     line-height: 1.3;
 
 }
+
+
+/* Action */
+.section-title{
+    font-size: 42px;
+    font-weight: 800;
+    color: #252432 ;
+}
+
+.section-description{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(37, 36, 50, 0.5) ;
+
+}
+
+.action{
+    display: flex;
+    margin: 95px 159px 0px 141px ;
+    justify-content: space-between;
+}
+
+.action-photo{
+    border-radius: 48px;
+    height: 328px;
+    width: 403px;
+}
