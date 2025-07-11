@@ -246,7 +246,7 @@ input[type="text"]{
     background-color: rgb(255, 255, 255);
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px ;
-    margin-bottom: 51px;
+    margin-bottom: 20px;
     padding: 20px 100px 20px 32px;
     
 }
@@ -260,7 +260,7 @@ input[type="email"]{
     background-color: rgb(255, 255, 255);
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px ;
-    margin-bottom: 51px;
+    margin-bottom: 20px;
     padding: 20px 100px 20px 32px;
 }
 
@@ -273,7 +273,7 @@ textarea{
     background-color: rgb(255, 255, 255);
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px ;
-    margin-bottom: 51px;
+    margin-bottom: 20px;
     padding: 20px 100px 20px 32px;
 }
 
@@ -288,3 +288,55 @@ textarea{
     color: black;
 }
 
+/* Footer */
+footer{
+    background-color: white;
+    margin-top: 85px;
+    height: 428px;
+    width: 1440pxx;
+    dis
+}
+.nav-title-footer{
+    font-size: 100px;
+    font-weight: 800;
+    color: #4E47FF;
+    text-align: center;
+
+}
+
+.nav-footer{
+    padding-top: 60px;
+}
+
+.footer-description{
+    font-size: 16px;
+    color: #8987A1;
+    text-align: center;
+    padding-left: 454px;
+    padding-right: 455px;
+    margin-top: -70px;
+}
+
+menu{
+    margin-top: 20px;
+   
+
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 700px;
+    padding-right: 740px;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #8987A1;
+    gap: 48px;
+
+}
