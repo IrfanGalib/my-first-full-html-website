@@ -162,9 +162,10 @@ main{
 
 /* What our users say */
 .card{
-    border: 2px solid #4E47FF;
+    border: 1px solid #F2EDED;
     border-radius: 14px;
     margin: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 24px;
 }
 
@@ -217,5 +218,73 @@ main{
 .aling{
     text-align: center;
     margin-top: 137px;
+}
+
+/* Let’s Get in Touch Start */
+.form{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    margin-top: 137px;
+}
+.form-title{
+    font-size: 97px;
+    color: black;
+
+}
+
+.bg-color{
+    background-color: rgba(78, 71, 255, 0.06);
+
+}
+input[type="text"]{
+    height: 30px;
+    width: 497px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px ;
+    margin-bottom: 51px;
+    padding: 20px 100px 20px 32px;
+    
+}
+
+input[type="email"]{
+     height: 30px;
+    width: 497px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px ;
+    margin-bottom: 51px;
+    padding: 20px 100px 20px 32px;
+}
+
+textarea{
+    height:70px;
+    width: 497px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px ;
+    margin-bottom: 51px;
+    padding: 20px 100px 20px 32px;
+}
+
+.btn-get-in{
+    width: 640px;
+    height: 62px;
+}
+
+.form-name{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
 }
 
